@@ -1,0 +1,68 @@
+name:Deploy
+size:3
+type:ItemTurret
+shootCone:30
+range:500
+reloadTime: 70
+category: turret
+
+ammoTypes: {
+  missile: {
+    type: MissileBulletType
+    homingPower:0.02
+    homingRange:35
+    damage:110
+    lifetime:120
+    speed:4
+  }  
+    light-missile: {
+    type: MissileBulletType
+    homingPower:0.05
+    homingRange:40
+    damage:55
+    lifetime:120
+    speed:6
+    width:2.5
+    height:5
+    reloadMultiplier:1.25
+  }  
+    heavy-missile: {
+    type: MissileBulletType
+    homingPower:0.005
+    homingRange:30
+    damage:220
+    lifetime:120
+    speed:3
+    width:10
+    height:15
+    reloadMultiplier:.75
+    }  
+    frag-missile: {
+    type: MissileBulletType
+    homingPower:0.01
+    homingRange:40
+    damage:110
+    lifetime:120
+    speed:3
+    width:40
+    height:20
+    reloadMultiplier:.50
+    fragBullets: 3
+      fragBullet: {
+    type: MissileBulletType
+    homingPower:0.02
+    homingRange:35
+    damage:110
+    lifetime:120
+    speed:4
+      }
+  } 
+}
+
+requirements: [
+  titanium/200
+  copper/300
+  lead/100
+  graphite/60
+  surge-alloy/30
+]
