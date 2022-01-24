@@ -1,0 +1,8 @@
+name: Frag Missile
+desc: Homing projectile that splits into 3 missiles upon impact.
+type: material
+explosiveness: 6
+flammability: 4
+radioactivity: 0
+hardness: 0
+cost: 1
