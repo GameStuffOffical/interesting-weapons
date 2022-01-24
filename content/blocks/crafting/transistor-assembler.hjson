@@ -14,7 +14,7 @@ consume:{
 outputItem: transistor/1
   
 requirements: [
-  sillicon/15
+  silicon/15
   copper/30
   lead/10
   graphite/9
