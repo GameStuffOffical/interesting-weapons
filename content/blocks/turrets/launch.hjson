@@ -14,7 +14,7 @@ ammoTypes: {
     speed:3
   }  
 }
-requirements [
+requirements: [
   titanium/80
   copper/50
   lead/40
