@@ -9,7 +9,7 @@ category: turret
 ammoTypes: {
   missile: {
     type: MissileBulletType
-    homingPower:0.02
+    homingPower:0.05
     homingRange:35
     damage:110
     lifetime:120
@@ -17,7 +17,7 @@ ammoTypes: {
   }  
     light-missile: {
     type: MissileBulletType
-    homingPower:0.05
+    homingPower:0.1
     homingRange:40
     damage:55
     lifetime:120
@@ -28,7 +28,7 @@ ammoTypes: {
   }  
     heavy-missile: {
     type: MissileBulletType
-    homingPower:0.005
+    homingPower:0.04
     homingRange:30
     damage:220
     lifetime:120
@@ -39,7 +39,7 @@ ammoTypes: {
     }  
     frag-missile: {
     type: MissileBulletType
-    homingPower:0.01
+    homingPower:0.05
     homingRange:40
     damage:110
     lifetime:120
