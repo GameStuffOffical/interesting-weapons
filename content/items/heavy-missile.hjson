@@ -1,0 +1,8 @@
+name: Heavy Missile
+desc: Homing projectile. Increased mass. Does more damage. Homing and speed abilities weakend.
+type: material
+explosiveness: 6
+flammability: 2
+radioactivity: 0
+hardness: 0
+cost: 1
