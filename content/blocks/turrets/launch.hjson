@@ -4,7 +4,7 @@ type:ItemTurret
 shootCone:30
 range:400
 reloadTime: 60
-category: turrets
+category: turret
 
 ammoTypes: {
   missile: {
