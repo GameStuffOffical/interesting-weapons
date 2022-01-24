@@ -24,6 +24,18 @@ ammoTypes: {
     height:5
     reloadMultiplier:1.25
   }  
+    }  
+    heavy-missile: {
+    type: MissileBulletType
+    homingPower:0.005
+    homingRange:30
+    damage:100
+    lifetime:120
+    speed:2
+    width:10
+    height:15
+    reloadMultiplier:.75
+  } 
 }
 requirements: [
   titanium/80
