@@ -24,7 +24,6 @@ ammoTypes: {
     height:5
     reloadMultiplier:1.25
   }  
-    }  
     heavy-missile: {
     type: MissileBulletType
     homingPower:0.005
@@ -36,7 +35,7 @@ ammoTypes: {
     height:15
     reloadMultiplier:.75
   } 
-
+}
 requirements: [
   titanium/80
   copper/50
