@@ -10,10 +10,10 @@ consume:{
     copper/5
   ]
 }
-outputitem: [
+outputItem: [
   transistor/1
 ]
-requierments: [
+requirements: [
   sillicon/15
   copper/30
   lead/10
