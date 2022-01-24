@@ -7,6 +7,7 @@ hasItems: true
 craftTime: 80
 craftEffect: smelt
 category: crafting
+ambientSound:peumatic-screwer
 
 consumes: {
   items: {
