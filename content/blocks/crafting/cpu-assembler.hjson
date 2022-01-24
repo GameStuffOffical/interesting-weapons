@@ -1,0 +1,27 @@
+name:CPU Assembler
+description:Assembles CPUs.
+type: GenericCrafter
+size:2
+hasPower: false
+hasItems: true
+craftTime: 160
+craftEffect: smelt
+category: crafting
+
+consumes: {
+  items: {
+    items: [
+      transistor5
+      lead/8
+    ]
+  }
+}
+	
+outputItem: transistor/1
+  
+requirements: [
+  silicon/20
+  copper/20
+  lead/30
+  titanium/13
+]
