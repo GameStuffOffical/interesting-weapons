@@ -2,7 +2,7 @@ name:launch
 size:2
 type:ItemTurret
 shootCone:30
-range:40
+range:400
 reload: 120
 ammoTypes: {
   missile: {
