@@ -1,0 +1,28 @@
+name:Light Missile Assembler
+description:Assembles Light Missiles.
+type: GenericCrafter
+size:2
+hasPower: false
+hasItems: true
+craftTime: 21
+craftEffect: smelt
+category: crafting
+
+consumes: {
+  items: {
+    items: [
+      computer-chip/1
+      titanium/10
+    ]
+  }
+}
+	
+outputItem: light-missile/2
+  
+requirements: [
+  silicon/15
+  copper/50
+  lead/20
+  titanium/60
+  graphite/30
+]
