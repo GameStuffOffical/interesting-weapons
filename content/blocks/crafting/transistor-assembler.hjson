@@ -6,10 +6,10 @@ craftTime: 80
 craftEffect: smelt
 category: crafting
 consume:[
-  items: [
+  items: {
     silicon/3
     copper/5
-  ]
+  }
 ]
 
 outputItem: transistor/1
