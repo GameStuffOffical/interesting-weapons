@@ -7,6 +7,7 @@ hasItems: true
 craftTime: 160
 craftEffect: smelt
 category: crafting
+ambientSound:quick-drilling-machine-hum
 
 consumes: {
   items: {
