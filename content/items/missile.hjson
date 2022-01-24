@@ -1,0 +1,8 @@
+name: Missile
+desc: Basic homing projectile.
+type: material
+explosiveness: 3
+flammability: 1
+radioactivity: 0
+hardness: 0
+cost: 1
