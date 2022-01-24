@@ -36,7 +36,7 @@ ammoTypes: {
     height:15
     reloadMultiplier:.75
   } 
-}
+
 requirements: [
   titanium/80
   copper/50
