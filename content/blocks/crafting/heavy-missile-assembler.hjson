@@ -6,7 +6,7 @@ hasPower: false
 hasItems: true
 craftTime: 32
 craftEffect: smelt
-category: crafting
+category: Crafting
 
 consumes: {
   items: {
