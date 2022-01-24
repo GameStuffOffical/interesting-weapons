@@ -11,7 +11,7 @@ category: crafting
 consumes: {
   items: {
     items: [
-      transistor5
+      transistor/5
       lead/8
     ]
   }
