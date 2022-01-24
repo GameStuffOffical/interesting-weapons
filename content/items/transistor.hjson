@@ -1,6 +1,5 @@
 name: transistor
 desc: Can process simple binary equasions.
-color: grey
 type: material
 explosiveness: 0
 flammability: 0
