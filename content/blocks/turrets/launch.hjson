@@ -9,16 +9,16 @@ category: turret
 ammoTypes: {
   missile: {
     type: MissileBulletType
-    homingPower:0.02
-    homingRange:35
+    homingPower:0.05
+    homingRange:350
     damage:100
     lifetime:130
     speed:3
   }  
     light-missile: {
     type: MissileBulletType
-    homingPower:0.05
-    homingRange:40
+    homingPower:0.1
+    homingRange:400
     damage:50
     lifetime:120
     speed:5
@@ -28,8 +28,8 @@ ammoTypes: {
   }  
     heavy-missile: {
     type: MissileBulletType
-    homingPower:0.005
-    homingRange:30
+    homingPower:0.01
+    homingRange:300
     damage:200
     lifetime:150
     speed:2
