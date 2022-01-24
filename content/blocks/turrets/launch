@@ -1,0 +1,21 @@
+name:launch
+size:2
+type:ItemTurret
+shootCone:30
+range:40
+reload: 120
+ammoTypes: {
+  missile: {
+    type: MissileBulletType
+    homingPower:0.01
+    homingRange:35
+    damage:100
+    lifetime:120
+    speed:3
+  }  
+}
+requirements [
+  titanium/80
+  copper/50
+  lead/40
+]
