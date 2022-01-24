@@ -1,6 +1,5 @@
 name: Computer Chip
 desc: Used for calculations and control of various modules.
-color: lime
 type: material
 explosiveness: 0
 flammability: 0
