@@ -2,15 +2,18 @@ name:Transistor Assembler
 description:Assembles Transistors.
 type: GenericCrafter
 size:2
+hasPower: false
+hasItems: true
 craftTime: 80
 craftEffect: smelt
 category: crafting
+
 consumeItems:[
   items:[
   silicon/3
   copper/5
 	]
-
+	
 outputItem: transistor/1
   
 requirements: [
