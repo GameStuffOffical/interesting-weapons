@@ -1,7 +1,9 @@
 name:Transistor Assembler
 description:Assembles Transistors.
+type: GenericCrafter
 craftTime: 80
 craftEffect: smelt
+category: crafting
 consume:{
   items: [
     silicon/3
@@ -10,4 +12,10 @@ consume:{
 }
 outputitem: [
   transistor/1
+]
+requierments: [
+  sillicon/15
+  copper/30
+  lead/10
+  graphite/9
 ]
