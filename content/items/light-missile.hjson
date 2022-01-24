@@ -1,0 +1,8 @@
+name: Light Missile
+desc: Light homing projectile. Due to less mass homing and speed is enhanced.
+type: material
+explosiveness: 1.5
+flammability: .5
+radioactivity: 0
+hardness: 0
+cost: .5
