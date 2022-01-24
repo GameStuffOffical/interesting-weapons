@@ -28,7 +28,7 @@ ammoTypes: {
     type: MissileBulletType
     homingPower:0.005
     homingRange:30
-    damage:100
+    damage:200
     lifetime:120
     speed:2
     width:10
