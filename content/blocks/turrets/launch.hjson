@@ -3,11 +3,11 @@ size:2
 type:ItemTurret
 shootCone:30
 range:400
-reload: 120
+reload: 1200
 ammoTypes: {
   missile: {
     type: MissileBulletType
-    homingPower:0.01
+    homingPower:0.02
     homingRange:35
     damage:100
     lifetime:120
