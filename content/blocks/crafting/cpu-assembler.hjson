@@ -17,7 +17,7 @@ consumes: {
   }
 }
 	
-outputItem: transistor/1
+outputItem: cpu/1
   
 requirements: [
   silicon/20
