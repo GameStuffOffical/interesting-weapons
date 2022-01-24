@@ -22,6 +22,7 @@ ammoTypes: {
     speed:5
     width:2.5
     height:5
+    reloadMultiplier:.75
   }  
 }
 requirements: [
