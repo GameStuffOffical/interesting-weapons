@@ -1,0 +1,30 @@
+name:Computer Chip Assembler
+description:Assembles Computer Chips.
+type: GenericCrafter
+size:3
+hasPower: false
+hasItems: true
+craftTime: 320
+craftEffect: smelt
+category: crafting
+
+consumes: {
+  items: {
+    items: [
+      transistor/5
+      titanium/15
+      graphite/10
+    ]
+  }
+}
+	
+outputItem: computer-chip/1
+  
+requirements: [
+  silicon/40
+  copper/40
+  lead/60
+  titanium/26
+  graphite/20
+  thourium/50
+]
