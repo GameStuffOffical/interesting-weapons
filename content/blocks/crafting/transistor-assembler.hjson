@@ -8,7 +8,7 @@ craftTime: 80
 craftEffect: smelt
 category: crafting
 
-consume: {
+consumes: {
   items: {
     items: [
       silicon/3
