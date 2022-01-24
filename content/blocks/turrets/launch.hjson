@@ -13,6 +13,14 @@ ammoTypes: {
     lifetime:120
     speed:3
   }  
+    light-missile: {
+    type: MissileBulletType
+    homingPower:0.05
+    homingRange:40
+    damage:50
+    lifetime:120
+    speed:5
+  }  
 }
 requirements: [
   titanium/80
