@@ -1,0 +1,28 @@
+name:Heavy Missile Assembler
+description:Assembles Heavy Missiles.
+type: GenericCrafter
+size:2
+hasPower: false
+hasItems: true
+craftTime: 32
+craftEffect: smelt
+category: crafting
+
+consumes: {
+  items: {
+    items: [
+      computer-chip/1
+      titanium/20
+    ]
+  }
+}
+	
+outputItem: heavy-missile/1
+  
+requirements: [
+  silicon/15
+  copper/50
+  lead/20
+  titanium/60
+  graphite/30
+]
