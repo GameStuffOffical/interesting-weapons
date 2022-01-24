@@ -4,6 +4,8 @@ type:ItemTurret
 shootCone:30
 range:400
 reloadTime: 60
+category: turrets
+
 ammoTypes: {
   missile: {
     type: MissileBulletType
@@ -36,6 +38,7 @@ ammoTypes: {
     reloadMultiplier:.75
   } 
 }
+
 requirements: [
   titanium/80
   copper/50
