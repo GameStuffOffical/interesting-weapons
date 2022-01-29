@@ -1,0 +1,29 @@
+name:Light Missile Merger
+description:Merges Light Missiles.
+type: GenericCrafter
+size:3
+hasPower: false
+hasItems: true
+craftTime: 60
+craftEffect: smelt
+category: crafting
+
+consumes: {
+  items: {
+    items: [
+    pyratite/3
+    light-missile/3
+    ]
+  }
+}
+	
+outputItem: light-frag-missile/1
+  
+requirements: [
+  silicon/50
+  copper/10
+  lead/40
+  titanium/100
+  graphite/80
+  surge-alloy/20
+]
