@@ -4,7 +4,7 @@ type: GenericCrafter
 size:3
 hasPower: false
 hasItems: true
-craftTime: 320
+craftTime: 160
 craftEffect: smelt
 category: crafting
 itemCapacity: 20
