@@ -57,6 +57,26 @@ ammoTypes: {
     	speed:4
       }
   } 
+      light-frag-missile: {
+    type: MissileBulletType
+    homingPower:0.10
+    homingRange:400
+    damage:110
+    lifetime:120
+    speed:3
+    width:15
+    height:40
+    reloadMultiplier:.75
+    fragBullets: 3
+  	  fragBullet: {
+   		type: MissileBulletType
+  		homingPower:0.1
+   		homingRange:400
+			damage:55
+ 	  	lifetime:120
+    	speed:6
+      }
+  }
 }
 
 requirements: [
