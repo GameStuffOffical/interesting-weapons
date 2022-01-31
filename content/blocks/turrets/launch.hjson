@@ -46,14 +46,13 @@ ammoTypes: {
     speed:3
     fragBullets: 5
       fragBullet: {
-        type: fireball
-          missile: {
+          type: fireball
           homingPower:0.1
           homingRange:350
           damage:100
-          lifetime:130
+          lifetime:1300
           peirce: true
-          speed:5
+          speed:10
         }  
       }
   }  
