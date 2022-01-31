@@ -14,24 +14,6 @@ ammoTypes: {
     damage:110
     lifetime:120
     speed:4
-    fragBullets: 1
-    	fragBullet: {
-	type: fireball
-   	 speed: 5
-   	 homingPower:0.05
-  	  homingRange:350
- 	   damage:110
-	    lifetime:120
- 	   fragBullets: 5
-  	    fragBullet: {
- 	     type: fireball
-  	    homingPower:0.1
-  	    peirce: true
-   	   homingRange:350
-  	    damage:10
-  	    lifetime:240
- 	     speed:5
-	}}}
   }  
     light-missile: {
     type: MissileBulletType
