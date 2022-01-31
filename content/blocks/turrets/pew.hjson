@@ -1,4 +1,14 @@
 name: pew
+
+
+  
+size:3
+type:ItemTurret
+shootCone:30
+range:500
+reloadTime: 70
+category: turret
+
 requierments: [
   copper/1
 ]
@@ -6,6 +16,8 @@ size: 1
 range: 9999
 health: 99999
 reload: 80
+
+
 ammoTypes: {
   copper: {
     type: fireball
@@ -14,6 +26,7 @@ ammoTypes: {
       fragBullet: {
        type: fireball
        speed:3
+       pierce: true
       }
   }
 }
