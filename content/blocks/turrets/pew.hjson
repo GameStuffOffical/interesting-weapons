@@ -1,0 +1,16 @@
+name: pew
+requierments: [
+  copper/1
+]
+reload: 80
+ammoTypes: {
+  copper: {
+    type: fireball
+    speed:3
+    fragBullets: 5
+      fragBullet: {
+       type: fireball
+       speed:3
+      }
+  }
+}
