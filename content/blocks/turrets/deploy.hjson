@@ -76,6 +76,24 @@ ammoTypes: {
  	  	lifetime:120
     	speed:6
       }
+        fire-ball: {
+    type: fireball
+    speed: 5
+    homingPower:0.05
+    homingRange:350
+    damage:110
+    lifetime:120
+    fragBullets: 5
+      fragBullet: {
+      type: fireball
+      homingPower:0.1
+      peirce: true
+      homingRange:350
+      damage:10
+      lifetime:240
+      speed:4
+      }
+    }  
   }
 }
 
