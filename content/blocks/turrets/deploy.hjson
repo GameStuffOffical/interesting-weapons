@@ -76,7 +76,7 @@ ammoTypes: {
  	  	lifetime:120
     	speed:6
       }
-        fire-ball: {
+        pyratite: {
     type: fireball
     speed: 5
     homingPower:0.05
