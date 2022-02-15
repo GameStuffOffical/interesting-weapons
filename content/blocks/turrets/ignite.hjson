@@ -1,36 +1,31 @@
+name:Ignite
+size:4
+type:ItemTurret
+category: turret
 
-        fuse = new ItemTurret("fuse"){{
-            requirements(Category.turret, with(Items.copper, 225, Items.graphite, 225, Items.thorium, 100));
+ammoTypes: {
+  titanium: {
+    type: ShrapnelBulletType
+                    length:120
+                    damage:80
+                    ammoMultiplier:5.5
+                    width:20
+                    reloadMultiplier:1.3
+  } 
+} 
 
-            reloadTime = 35f;
-            shootShake = 4f;
-            range = 90f;
-            recoilAmount = 5f;
-            shots = 3;
-            spread = 20f;
-            restitution = 0.1f;
-            shootCone = 30;
-            size = 3;
+requirements: [
+  copper/ 2500
+  graphite/2250
+  thorium/1000
+]
 
-            health = 220 * size * size;
-            shootSound = Sounds.shotgun;
-
-            float brange = range + 10f;
-
-            ammo(
-                Items.titanium, new ShrapnelBulletType(){{
-                    length = brange;
-                    damage = 66f;
-                    ammoMultiplier = 4f;
-                    width = 17f;
-                    reloadMultiplier = 1.3f;
-                }},
-                Items.thorium, new ShrapnelBulletType(){{
-                    length = brange;
-                    damage = 105f;
-                    ammoMultiplier = 5f;
-                    toColor = Pal.thoriumPink;
-                    shootEffect = smokeEffect = Fx.thoriumShoot;
-                }}
-            );
-        }};
+            reloadTime:35
+            shootShake:5
+            range:110
+            recoilAmount:5
+            shots:5
+            spread:20
+            restitution:0.1
+            shootCone:30
+            shootSound:shotgun
