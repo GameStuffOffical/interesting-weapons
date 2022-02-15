@@ -25,7 +25,7 @@ requirements: [
             range:110
             recoilAmount:5
             shots:5
-            spread:20
+            spread:15
             restitution:0.1
             shootCone:30
             shootSound:shotgun
