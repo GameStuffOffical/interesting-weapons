@@ -18,7 +18,7 @@ ammoTypes: {
     lifetime: 30
     speed: 5
     damage: 15
-    drag: 1
+    drag: .5
     pierce: false
     inaccuray: 20
     ammoMultiplier: 15
