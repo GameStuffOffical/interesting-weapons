@@ -1,11 +1,12 @@
 name: Bash
 size:2
 type:ItemTurret
-shootCone:30
-range:80
+shootCone:5
+range:160
 reloadTime: 120
 category: turret
 shots: 15
+inaccuracy: 30
 
 requirements: [
   copper/100
@@ -16,11 +17,10 @@ ammoTypes: {
   copper: {
     type: BasicBulletType
     lifetime: 30
-    speed: 5
+    speed: 10
     damage: 15
     drag: .05
     pierce: false
-    inaccuray: 20
     ammoMultiplier: 15
     collidesAir: false
   }
