@@ -2,10 +2,10 @@ name: Bash
 size:2
 type:ItemTurret
 range:240
-reloadTime: 120
+reloadTime: 60
 category: turret
-spread: 1
-shots: 15
+spread: 2
+shots: 10
 inaccuracy: 1
 
 requirements: [
