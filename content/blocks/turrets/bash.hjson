@@ -6,7 +6,7 @@ range:240
 reloadTime: 120
 category: turret
 shots: 15
-inaccuracy: 5
+inaccuracy: 1
 
 requirements: [
   copper/100
