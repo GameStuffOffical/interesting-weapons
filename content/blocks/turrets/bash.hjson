@@ -1,10 +1,10 @@
 name: Bash
 size:2
 type:ItemTurret
-shootCone:1
 range:240
 reloadTime: 120
 category: turret
+spread: 1
 shots: 15
 inaccuracy: 1
 
